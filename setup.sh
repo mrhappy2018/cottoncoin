@@ -39,10 +39,10 @@ then
   cd
 
   wget https://github.com/mrhappy2018/cottoncoin/files/4142258/v1.5.1.0_Linux.zip
-  unzip -d Linux v1.5.1.0_Linux.zip 
+  unzip -d Linux Linux.zip 
   chmod +x Linux/*
   sudo mv  Linux/* /usr/local/bin
-  rm -rf v1.5.1.0_Linux.zip Linux
+  rm -rf Linux.zip Linux
 
   sudo apt-get install -y ufw
   sudo ufw allow ssh/tcp

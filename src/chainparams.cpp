@@ -166,8 +166,9 @@ public:
         assert(hashGenesisBlock == uint256("0x000001ed2eb1c365e30e5dea708fd7f957caf6bd2d4f2e690a6aa09257de6f15"));
         assert(genesis.hashMerkleRoot == uint256("0xf4dfd7c916fc4e813ab1bf2b5778eab90a260e415c69d8838772f7b56c3f6317"));
 
-		vSeeds.push_back(CDNSSeedData("cottoncoin.club", "cotton-seeder.cottoncoin.club"));     // Primary DNS Seeder 
-        vSeeds.push_back(CDNSSeedData("74.222.6.81", "74.222.6.81"));							// backup 
+
+        vSeeds.push_back(CDNSSeedData("74.222.6.94", "74.222.6.94"));
+        vSeeds.push_back(CDNSSeedData("74.222.6.81", "74.222.6.81"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 28); // G
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 138); // x
